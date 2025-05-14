@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Roca Exterminator Services LLC</title>
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: Arial, sans-serif;
-      direction: rtl;
+      padding: 0;
+      box-sizing: border-box;
     }
+
+    body, html {
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
     section {
       height: 100vh;
       color: white;
@@ -19,24 +24,38 @@
       text-align: center;
       background-size: cover;
       background-position: center;
+      padding: 20px;
     }
+
     .hero {
       background-image: url('https://www.alrghd-clean.com/wp-content/uploads/2021/03/pest-control.jpg');
     }
+
     .about {
       background-image: url('https://www.iaea.org/sites/default/files/styles/original_image/public/18/07/biological-control.jpg');
     }
+
     .services {
       background-image: url('https://www.almrsal.com/wp-content/uploads/2017/11/pest-control.jpg');
     }
+
     .contact {
       background-image: url('https://www.al-mnarr.com/wp-content/uploads/2021/06/pest-control-safety.jpg');
     }
+
     h1, h2 {
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.6);
       padding: 20px;
       border-radius: 10px;
     }
+
+    p {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+
     a {
       color: #fff;
       text-decoration: underline;
@@ -45,25 +64,38 @@
 </head>
 <body>
 
+  <!-- Section 1: Hero -->
   <section class="hero">
-    <h1>Roca Exterminator Services LLC</h1>
+    <div>
+      <h1>Welcome to Roca Exterminator Services LLC</h1>
+      <p>Reliable pest control solutions to protect your home and business.</p>
+    </div>
   </section>
 
+  <!-- Section 2: About -->
   <section class="about">
-    <h2>من نحن</h2>
-    <p>شركة متخصصة في مكافحة الحشرات تقدم خدمات متميزة لحماية منزلك ومكان عملك.</p>
+    <div>
+      <h2>About Us</h2>
+      <p>We are a professional pest control company committed to keeping your environment pest-free. Our team uses safe and effective techniques to ensure your comfort.</p>
+    </div>
   </section>
 
+  <!-- Section 3: Services -->
   <section class="services">
-    <h2>خدماتنا</h2>
-    <p>نقدم خدمات مكافحة الحشرات، القوارض، والنمل الأبيض باستخدام أحدث التقنيات.</p>
+    <div>
+      <h2>Our Services</h2>
+      <p>We offer pest extermination, termite control, rodent removal, and seasonal prevention services for homes and commercial properties.</p>
+    </div>
   </section>
 
+  <!-- Section 4: Contact -->
   <section class="contact">
-    <h2>اتصل بنا</h2>
-    <p>الهاتف: <a href="tel:+17857147628">+1 785-714-7628</a></p>
-    <p>البريد الإلكتروني: <a href="mailto:borges@rocaexterminatorservicesllc.shop">borges@rocaexterminatorservicesllc.shop</a></p>
-    <p>الموقع: هيايليا، فلوريدا</p>
+    <div>
+      <h2>Contact Us</h2>
+      <p>Phone: <a href="tel:+17857147628">+1 785-714-7628</a></p>
+      <p>Email: <a href="mailto:borges@rocaexterminatorservicesllc.shop">borges@rocaexterminatorservicesllc.shop</a></p>
+      <p>Location: Hialeah, Florida</p>
+    </div>
   </section>
 
 </body>
